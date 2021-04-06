@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		96905EF65AED1B983A6B3ABC /* libPods-newApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-newApp.a */; };
+		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		D9D3DD68261A522800163841 /* libEXApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD67261A522800163841 /* libEXApplication.a */; };
+		D9D3DD6A261A522800163841 /* libEXCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD69261A522800163841 /* libEXCamera.a */; };
+		D9D3DD6C261A522800163841 /* libEXConstants.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD6B261A522800163841 /* libEXConstants.a */; };
+		D9D3DD6E261A522800163841 /* libEXErrorRecovery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD6D261A522800163841 /* libEXErrorRecovery.a */; };
+		D9D3DD70261A522800163841 /* libEXFileSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD6F261A522800163841 /* libEXFileSystem.a */; };
+		D9D3DD72261A522800163841 /* libEXFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD71261A522800163841 /* libEXFont.a */; };
+		D9D3DD74261A522800163841 /* libEXImageLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD73261A522800163841 /* libEXImageLoader.a */; };
+		D9D3DD76261A522800163841 /* libEXImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD75261A522800163841 /* libEXImagePicker.a */; };
+		D9D3DD78261A522800163841 /* libEXKeepAwake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD77261A522800163841 /* libEXKeepAwake.a */; };
+		D9D3DD7A261A522800163841 /* libEXLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD79261A522800163841 /* libEXLinearGradient.a */; };
+		D9D3DD7C261A522800163841 /* libEXLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD7B261A522800163841 /* libEXLocation.a */; };
+		D9D3DD7E261A522800163841 /* libEXPermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD7D261A522800163841 /* libEXPermissions.a */; };
+		D9D3DD80261A522800163841 /* libEXSecureStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD7F261A522800163841 /* libEXSecureStore.a */; };
+		D9D3DD82261A522800163841 /* libEXSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD81261A522800163841 /* libEXSplashScreen.a */; };
+		D9D3DD84261A522800163841 /* libEXSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD83261A522800163841 /* libEXSQLite.a */; };
+		D9D3DD86261A522800163841 /* libEXUpdates.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD85261A522800163841 /* libEXUpdates.a */; };
+		D9D3DD88261A522800163841 /* libFBReactNativeSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD87261A522800163841 /* libFBReactNativeSpec.a */; };
+		D9D3DD8A261A522800163841 /* libFolly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD89261A522800163841 /* libFolly.a */; };
+		D9D3DD8C261A522800163841 /* libglog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD8B261A522800163841 /* libglog.a */; };
+		D9D3DD8E261A522800163841 /* libPods-newApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD8D261A522800163841 /* libPods-newApp.a */; };
+		D9D3DD90261A522800163841 /* libRCTTypeSafety.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD8F261A522800163841 /* libRCTTypeSafety.a */; };
+		D9D3DD92261A522800163841 /* libReact-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD91261A522800163841 /* libReact-Core.a */; };
+		D9D3DD94261A522800163841 /* libReact-CoreModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD93261A522800163841 /* libReact-CoreModules.a */; };
+		D9D3DD96261A522800163841 /* libReact-cxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD95261A522800163841 /* libReact-cxxreact.a */; };
+		D9D3DD98261A522800163841 /* libReact-jsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD97261A522800163841 /* libReact-jsi.a */; };
+		D9D3DD9A261A522800163841 /* libReact-jsiexecutor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD99261A522800163841 /* libReact-jsiexecutor.a */; };
+		D9D3DD9C261A522800163841 /* libReact-jsinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD9B261A522800163841 /* libReact-jsinspector.a */; };
+		D9D3DD9E261A522800163841 /* libreact-native-camera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD9D261A522800163841 /* libreact-native-camera.a */; };
+		D9D3DDA0261A522800163841 /* libreact-native-safe-area-context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DD9F261A522800163841 /* libreact-native-safe-area-context.a */; };
+		D9D3DDA2261A522800163841 /* libReact-RCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDA1261A522800163841 /* libReact-RCTAnimation.a */; };
+		D9D3DDA4261A522800163841 /* libReact-RCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDA3261A522800163841 /* libReact-RCTBlob.a */; };
+		D9D3DDA6261A522800163841 /* libReact-RCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDA5261A522800163841 /* libReact-RCTImage.a */; };
+		D9D3DDA8261A522800163841 /* libReact-RCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDA7261A522800163841 /* libReact-RCTLinking.a */; };
+		D9D3DDAA261A522800163841 /* libReact-RCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDA9261A522800163841 /* libReact-RCTNetwork.a */; };
+		D9D3DDAC261A522800163841 /* libReact-RCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDAB261A522800163841 /* libReact-RCTSettings.a */; };
+		D9D3DDAE261A522800163841 /* libReact-RCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDAD261A522800163841 /* libReact-RCTText.a */; };
+		D9D3DDB0261A522800163841 /* libReact-RCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDAF261A522800163841 /* libReact-RCTVibration.a */; };
+		D9D3DDB2261A522800163841 /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDB1261A522800163841 /* libReactCommon.a */; };
+		D9D3DDB4261A522800163841 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDB3261A522800163841 /* libRNGestureHandler.a */; };
+		D9D3DDB6261A522800163841 /* libRNPermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDB5261A522800163841 /* libRNPermissions.a */; };
+		D9D3DDB8261A522800163841 /* libRNReanimated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDB7261A522800163841 /* libRNReanimated.a */; };
+		D9D3DDBA261A522800163841 /* libRNScreens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDB9261A522800163841 /* libRNScreens.a */; };
+		D9D3DDBC261A522800163841 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDBB261A522800163841 /* libRNVectorIcons.a */; };
+		D9D3DDBE261A522800163841 /* libUMAppLoader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDBD261A522800163841 /* libUMAppLoader.a */; };
+		D9D3DDC0261A522800163841 /* libUMCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDBF261A522800163841 /* libUMCore.a */; };
+		D9D3DDC2261A522800163841 /* libUMPermissionsInterface.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDC1261A522800163841 /* libUMPermissionsInterface.a */; };
+		D9D3DDC4261A522800163841 /* libUMReactNativeAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDC3261A522800163841 /* libUMReactNativeAdapter.a */; };
+		D9D3DDC6261A522800163841 /* libYoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DDC5261A522800163841 /* libYoga.a */; };
+		D9D3DE0B261B8B1E00163841 /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DE0A261B8B1E00163841 /* libDoubleConversion.a */; };
+		D9D3DE0F261B90A100163841 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
+		D9D3DE11261BA14A00163841 /* libPermission-Camera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DE10261BA14A00163841 /* libPermission-Camera.a */; };
+		D9D3DE13261BA1E100163841 /* libreact-native-camera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D3DE12261BA1E100163841 /* libreact-native-camera.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* tak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = newApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = newApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = newApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = newApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = newApp/main.m; sourceTree = "<group>"; };
+		414328598F324E42984EE415 /* newApp-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "newApp-Bridging-Header.h"; path = "newApp/newApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-newApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2E3173556A471DD304B334 /* Pods-newApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newApp.debug.xcconfig"; path = "Target Support Files/Pods-newApp/Pods-newApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4D352CD337FB3A3BF06240 /* Pods-newApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newApp.release.xcconfig"; path = "Target Support Files/Pods-newApp/Pods-newApp.release.xcconfig"; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = newApp/SplashScreen.storyboard; sourceTree = "<group>"; };
+		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		D9D3DD62261A51DD00163841 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD67261A522800163841 /* libEXApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXApplication.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD69261A522800163841 /* libEXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD6B261A522800163841 /* libEXConstants.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXConstants.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD6D261A522800163841 /* libEXErrorRecovery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXErrorRecovery.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD6F261A522800163841 /* libEXFileSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXFileSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD71261A522800163841 /* libEXFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXFont.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD73261A522800163841 /* libEXImageLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXImageLoader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD75261A522800163841 /* libEXImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD77261A522800163841 /* libEXKeepAwake.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXKeepAwake.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD79261A522800163841 /* libEXLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXLinearGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD7B261A522800163841 /* libEXLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXLocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD7D261A522800163841 /* libEXPermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXPermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD7F261A522800163841 /* libEXSecureStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXSecureStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD81261A522800163841 /* libEXSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXSplashScreen.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD83261A522800163841 /* libEXSQLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXSQLite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD85261A522800163841 /* libEXUpdates.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libEXUpdates.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD87261A522800163841 /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD89261A522800163841 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD8B261A522800163841 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD8D261A522800163841 /* libPods-newApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-newApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD8F261A522800163841 /* libRCTTypeSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD91261A522800163841 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD93261A522800163841 /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD95261A522800163841 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD97261A522800163841 /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD99261A522800163841 /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD9B261A522800163841 /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD9D261A522800163841 /* libreact-native-camera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-camera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DD9F261A522800163841 /* libreact-native-safe-area-context.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDA1261A522800163841 /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDA3261A522800163841 /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDA5261A522800163841 /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDA7261A522800163841 /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDA9261A522800163841 /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDAB261A522800163841 /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDAD261A522800163841 /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDAF261A522800163841 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDB1261A522800163841 /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDB3261A522800163841 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDB5261A522800163841 /* libRNPermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNPermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDB7261A522800163841 /* libRNReanimated.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDB9261A522800163841 /* libRNScreens.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNScreens.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDBB261A522800163841 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDBD261A522800163841 /* libUMAppLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libUMAppLoader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDBF261A522800163841 /* libUMCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libUMCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDC1261A522800163841 /* libUMPermissionsInterface.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libUMPermissionsInterface.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDC3261A522800163841 /* libUMReactNativeAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libUMReactNativeAdapter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DDC5261A522800163841 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DE0A261B8B1E00163841 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DE10261BA14A00163841 /* libPermission-Camera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPermission-Camera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D3DE12261BA1E100163841 /* libreact-native-camera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-camera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D3DE13261BA1E100163841 /* libreact-native-camera.a in Frameworks */,
+				D9D3DE11261BA14A00163841 /* libPermission-Camera.a in Frameworks */,
+				D9D3DE0B261B8B1E00163841 /* libDoubleConversion.a in Frameworks */,
+				D9D3DD68261A522800163841 /* libEXApplication.a in Frameworks */,
+				D9D3DD6A261A522800163841 /* libEXCamera.a in Frameworks */,
+				D9D3DD6C261A522800163841 /* libEXConstants.a in Frameworks */,
+				D9D3DD6E261A522800163841 /* libEXErrorRecovery.a in Frameworks */,
+				D9D3DD70261A522800163841 /* libEXFileSystem.a in Frameworks */,
+				D9D3DD72261A522800163841 /* libEXFont.a in Frameworks */,
+				D9D3DD74261A522800163841 /* libEXImageLoader.a in Frameworks */,
+				D9D3DD76261A522800163841 /* libEXImagePicker.a in Frameworks */,
+				D9D3DD78261A522800163841 /* libEXKeepAwake.a in Frameworks */,
+				D9D3DD7A261A522800163841 /* libEXLinearGradient.a in Frameworks */,
+				D9D3DD7C261A522800163841 /* libEXLocation.a in Frameworks */,
+				D9D3DD7E261A522800163841 /* libEXPermissions.a in Frameworks */,
+				D9D3DD80261A522800163841 /* libEXSecureStore.a in Frameworks */,
+				D9D3DD82261A522800163841 /* libEXSplashScreen.a in Frameworks */,
+				D9D3DD84261A522800163841 /* libEXSQLite.a in Frameworks */,
+				D9D3DD86261A522800163841 /* libEXUpdates.a in Frameworks */,
+				D9D3DD88261A522800163841 /* libFBReactNativeSpec.a in Frameworks */,
+				D9D3DD8A261A522800163841 /* libFolly.a in Frameworks */,
+				D9D3DD8C261A522800163841 /* libglog.a in Frameworks */,
+				D9D3DD8E261A522800163841 /* libPods-newApp.a in Frameworks */,
+				D9D3DD90261A522800163841 /* libRCTTypeSafety.a in Frameworks */,
+				D9D3DD92261A522800163841 /* libReact-Core.a in Frameworks */,
+				D9D3DD94261A522800163841 /* libReact-CoreModules.a in Frameworks */,
+				D9D3DD96261A522800163841 /* libReact-cxxreact.a in Frameworks */,
+				D9D3DD98261A522800163841 /* libReact-jsi.a in Frameworks */,
+				D9D3DD9A261A522800163841 /* libReact-jsiexecutor.a in Frameworks */,
+				D9D3DD9C261A522800163841 /* libReact-jsinspector.a in Frameworks */,
+				D9D3DD9E261A522800163841 /* libreact-native-camera.a in Frameworks */,
+				D9D3DDA0261A522800163841 /* libreact-native-safe-area-context.a in Frameworks */,
+				D9D3DDA2261A522800163841 /* libReact-RCTAnimation.a in Frameworks */,
+				D9D3DDA4261A522800163841 /* libReact-RCTBlob.a in Frameworks */,
+				D9D3DDA6261A522800163841 /* libReact-RCTImage.a in Frameworks */,
+				D9D3DDA8261A522800163841 /* libReact-RCTLinking.a in Frameworks */,
+				D9D3DDAA261A522800163841 /* libReact-RCTNetwork.a in Frameworks */,
+				D9D3DDAC261A522800163841 /* libReact-RCTSettings.a in Frameworks */,
+				D9D3DDAE261A522800163841 /* libReact-RCTText.a in Frameworks */,
+				D9D3DDB0261A522800163841 /* libReact-RCTVibration.a in Frameworks */,
+				D9D3DDB2261A522800163841 /* libReactCommon.a in Frameworks */,
+				D9D3DDB4261A522800163841 /* libRNGestureHandler.a in Frameworks */,
+				D9D3DDB6261A522800163841 /* libRNPermissions.a in Frameworks */,
+				D9D3DDB8261A522800163841 /* libRNReanimated.a in Frameworks */,
+				D9D3DDBA261A522800163841 /* libRNScreens.a in Frameworks */,
+				D9D3DDBC261A522800163841 /* libRNVectorIcons.a in Frameworks */,
+				D9D3DDBE261A522800163841 /* libUMAppLoader.a in Frameworks */,
+				D9D3DDC0261A522800163841 /* libUMCore.a in Frameworks */,
+				D9D3DDC2261A522800163841 /* libUMPermissionsInterface.a in Frameworks */,
+				D9D3DDC4261A522800163841 /* libUMReactNativeAdapter.a in Frameworks */,
+				D9D3DDC6261A522800163841 /* libYoga.a in Frameworks */,
+				96905EF65AED1B983A6B3ABC /* libPods-newApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* newApp */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792B24A3F905000567C9 /* Supporting */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
+				414328598F324E42984EE415 /* newApp-Bridging-Header.h */,
+			);
+			name = newApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9D3DE12261BA1E100163841 /* libreact-native-camera.a */,
+				D9D3DE10261BA14A00163841 /* libPermission-Camera.a */,
+				D9D3DE0A261B8B1E00163841 /* libDoubleConversion.a */,
+				D9D3DD67261A522800163841 /* libEXApplication.a */,
+				D9D3DD69261A522800163841 /* libEXCamera.a */,
+				D9D3DD6B261A522800163841 /* libEXConstants.a */,
+				D9D3DD6D261A522800163841 /* libEXErrorRecovery.a */,
+				D9D3DD6F261A522800163841 /* libEXFileSystem.a */,
+				D9D3DD71261A522800163841 /* libEXFont.a */,
+				D9D3DD73261A522800163841 /* libEXImageLoader.a */,
+				D9D3DD75261A522800163841 /* libEXImagePicker.a */,
+				D9D3DD77261A522800163841 /* libEXKeepAwake.a */,
+				D9D3DD79261A522800163841 /* libEXLinearGradient.a */,
+				D9D3DD7B261A522800163841 /* libEXLocation.a */,
+				D9D3DD7D261A522800163841 /* libEXPermissions.a */,
+				D9D3DD7F261A522800163841 /* libEXSecureStore.a */,
+				D9D3DD81261A522800163841 /* libEXSplashScreen.a */,
+				D9D3DD83261A522800163841 /* libEXSQLite.a */,
+				D9D3DD85261A522800163841 /* libEXUpdates.a */,
+				D9D3DD87261A522800163841 /* libFBReactNativeSpec.a */,
+				D9D3DD89261A522800163841 /* libFolly.a */,
+				D9D3DD8B261A522800163841 /* libglog.a */,
+				D9D3DD8D261A522800163841 /* libPods-newApp.a */,
+				D9D3DD8F261A522800163841 /* libRCTTypeSafety.a */,
+				D9D3DD91261A522800163841 /* libReact-Core.a */,
+				D9D3DD93261A522800163841 /* libReact-CoreModules.a */,
+				D9D3DD95261A522800163841 /* libReact-cxxreact.a */,
+				D9D3DD97261A522800163841 /* libReact-jsi.a */,
+				D9D3DD99261A522800163841 /* libReact-jsiexecutor.a */,
+				D9D3DD9B261A522800163841 /* libReact-jsinspector.a */,
+				D9D3DD9D261A522800163841 /* libreact-native-camera.a */,
+				D9D3DD9F261A522800163841 /* libreact-native-safe-area-context.a */,
+				D9D3DDA1261A522800163841 /* libReact-RCTAnimation.a */,
+				D9D3DDA3261A522800163841 /* libReact-RCTBlob.a */,
+				D9D3DDA5261A522800163841 /* libReact-RCTImage.a */,
+				D9D3DDA7261A522800163841 /* libReact-RCTLinking.a */,
+				D9D3DDA9261A522800163841 /* libReact-RCTNetwork.a */,
+				D9D3DDAB261A522800163841 /* libReact-RCTSettings.a */,
+				D9D3DDAD261A522800163841 /* libReact-RCTText.a */,
+				D9D3DDAF261A522800163841 /* libReact-RCTVibration.a */,
+				D9D3DDB1261A522800163841 /* libReactCommon.a */,
+				D9D3DDB3261A522800163841 /* libRNGestureHandler.a */,
+				D9D3DDB5261A522800163841 /* libRNPermissions.a */,
+				D9D3DDB7261A522800163841 /* libRNReanimated.a */,
+				D9D3DDB9261A522800163841 /* libRNScreens.a */,
+				D9D3DDBB261A522800163841 /* libRNVectorIcons.a */,
+				D9D3DDBD261A522800163841 /* libUMAppLoader.a */,
+				D9D3DDBF261A522800163841 /* libUMCore.a */,
+				D9D3DDC1261A522800163841 /* libUMPermissionsInterface.a */,
+				D9D3DDC3261A522800163841 /* libUMReactNativeAdapter.a */,
+				D9D3DDC5261A522800163841 /* libYoga.a */,
+				D9D3DD62261A51DD00163841 /* libDoubleConversion.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-newApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* newApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				D65327D7A22EEC0BE12398D9 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* tak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2F792B24A3F905000567C9 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F792C24A3F905000567C9 /* Expo.plist */,
+			);
+			name = Supporting;
+			path = newApp/Supporting;
+			sourceTree = "<group>";
+		};
+		D65327D7A22EEC0BE12398D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2E3173556A471DD304B334 /* Pods-newApp.debug.xcconfig */,
+				7A4D352CD337FB3A3BF06240 /* Pods-newApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* newApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "newApp" */;
+			buildPhases = (
+				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newApp;
+			productName = newApp;
+			productReference = 13B07F961A680F5B00A75B9A /* tak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "newApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* newApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D3DE0F261B90A100163841 /* main.jsbundle in Resources */,
+				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=/opt/homebrew/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n../node_modules/expo-constants/scripts/get-app-config-ios.sh\n../node_modules/expo-updates/scripts/create-manifest-ios.sh\n";
+		};
+		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-newApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-newApp/Pods-newApp-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-newApp/Pods-newApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = newApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-newApp.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = newApp/tak.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = newApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXApplication\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXCamera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXErrorRecovery\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFileSystem\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFont\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImageLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImagePicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXKeepAwake\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLinearGradient\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLocation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSQLite\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSecureStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSplashScreen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMAppLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMPermissionsInterface\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMReactNativeAdapter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"$(inherited)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXApplication\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXCamera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXErrorRecovery\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFileSystem\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFont\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImageLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImagePicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXKeepAwake\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLinearGradient\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLocation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSQLite\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSecureStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSplashScreen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMAppLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMPermissionsInterface\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMReactNativeAdapter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuk.tak;
+				PRODUCT_NAME = tak;
+				SWIFT_OBJC_BRIDGING_HEADER = "newApp/newApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-newApp.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = newApp/tak.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = newApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXApplication\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXCamera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXErrorRecovery\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFileSystem\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFont\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImageLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImagePicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXKeepAwake\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLinearGradient\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLocation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSQLite\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSecureStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSplashScreen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMAppLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMPermissionsInterface\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMReactNativeAdapter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"$(inherited)",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXApplication\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXCamera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXErrorRecovery\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFileSystem\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXFont\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImageLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXImagePicker\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXKeepAwake\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLinearGradient\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXLocation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSQLite\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSecureStore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXSplashScreen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMAppLoader\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMPermissionsInterface\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UMReactNativeAdapter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-camera\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context\"",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tuk.tak;
+				PRODUCT_NAME = tak;
+				SWIFT_OBJC_BRIDGING_HEADER = "newApp/newApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = newApp/tak.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = newApp/tak.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "newApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "newApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
